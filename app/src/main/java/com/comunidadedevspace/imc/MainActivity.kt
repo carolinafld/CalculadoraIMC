@@ -41,10 +41,6 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, ResultActivity::class.java)
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
-
-                // Cores
-                // EditText background + icone
-                // Gradiente + icone + titulo + descricao
             }
 
 
